@@ -591,7 +591,8 @@ color: var(--main-color);
   td {
     border: solid white 1px;
     height: 30px;
-    margin-left: 10px;
+    padding-left: 25px;
+    padding-bottom: 5px;
   }
 
   

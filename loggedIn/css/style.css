@@ -41,9 +41,12 @@ section{
 
 
 .btn{
-    margin-top: 1rem;
+    margin:10px ;
     display: inline-block;
-    padding:.9rem 3rem;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 1.7rem;
     color:#fff;
     background: var(--main-color);
@@ -83,17 +86,6 @@ section{
     color:#000000;
     border-bottom: .1rem solid #000000;
     padding-bottom: .5rem;
-}
-
-.header .icons div{
-    color:#fff;
-    cursor: pointer;
-    font-size: 2.5rem;
-    margin-left: 2rem;
-}
-
-.header .icons div:hover{
-    color:#000000;
 }
 
 #menu-btn{
@@ -268,24 +260,6 @@ section{
     padding:1rem 0;
     line-height: 1.8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width:991px){
@@ -583,7 +557,97 @@ color: var(--main-color);
     padding: 70px 0px;
     position: relative;
 }
+.header .navbar-new a{
+    margin:0 1rem;
+    font-size: 1.6rem;
+    color:#fff;
+}
 
+.header .navbar a:hover{
+    color:#000000;
+    border-bottom: .1rem solid #000000;
+    padding-bottom: .5rem;
+}
+.cart-box-main{
+    width: 80%;
+    margin: auto;
+    color: #ccc;
+    line-height: 20px;
+    font-size: medium;
+    
+}
+.table{
+    border-collapse: collapse;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.table th{
+    width: 230px;
+    margin: auto;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: rgb(66, 66, 66);
+}
+td{
+    width: 230px;
+    margin: auto;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.order-box {
+    width: 50%;
+}
+.my-1{
+    border: 1px solid white;
+}
+.ml-auto{
+    text-align: right;
+    padding: 3px;
+}
+h5{
+    font-size: medium;
+}
+input{
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 20px;
+}
+input .input-form{
+    margin: 15px;
+    margin-left: 120px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: beige;
+    font-size: medium;
+}
+.order{
+    margin: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-size: medium;
+    background-color: beige;
+}
+.btnn{
+    margin:10px ;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+.btnn:hover{
+    letter-spacing: .2rem;
+}
 
 
 

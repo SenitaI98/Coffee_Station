@@ -25,14 +25,13 @@
     
 <body>
     <header class="header">
-        <a href="index.html" class="logo">
-            <img src="images/coffeeStationLogo.png" alt="">
+        <a class="logo">
+            <img src="images/coffeeStationLogo.png">
         </a>
         <nav class="navbar">
             <a href="#users">Table of users</a>
         </nav>
         <div class="navbar">
-            <a href="../loggedIn/project.html">Project</a>
             <a href="logout.php">Logout</a>
         </div>
 
@@ -98,7 +97,7 @@
                 
                 <tr><!--  tr Begin  -->
                 
-                <th> <?php echo $id; ?> </th>
+                <td> <?php echo $id; ?> </td>
                 <td> <?php echo $firstname; ?> </td>
                 <td> <?php echo $lastname; ?> </td>
                 <td> <?php echo $email; ?> </td>
